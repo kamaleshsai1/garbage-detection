@@ -12,141 +12,68 @@ An end-to-end deep learning framework for real-world waste and litter detection 
 
 ## 🏛️ System Architecture
 
-The framework utilizes a parallel dual-detector pipeline coupled with a calibrated consensus fusion module for superior detection accuracy, high recall, and robust bounding-box localization.
+![Dual-Model Garbage Detection and Detection Fusion Pipeline](outputs/figures/system_architecture.png)
 
-```mermaid
-flowchart TD
-    subgraph INPUT["1. Input Data Stream"]
-        IMG["Input Image / Video Frame<br/>(RGB 640x480)"]
-    end
+### Architectural Overview
 
-    subgraph FRCNN["2. Faster R-CNN (Two-Stage Detector)"]
-        RN50["ResNet-50 Backbone<br/>(Deep Residual Feature Extraction)"]
-        FPN["Feature Pyramid Network (FPN)<br/>[P2, P3, P4, P5, P6 Hierarchy]"]
-        RPN["Region Proposal Network (RPN)<br/>(Candidate Anchor Proposals)"]
-        ROI["RoIAlign Layer<br/>(Spatial Feature Warping)"]
-        FHEAD["Fast R-CNN Detection Head<br/>• 6-Class Softmax Classification<br/>• Bounding-Box Coordinate Regression"]
-        
-        RN50 --> FPN
-        FPN --> RPN
-        RPN -->|Candidate RoIs| ROI
-        FPN --> ROI
-        ROI --> FHEAD
-    end
+The framework employs a parallel dual-detector pipeline coupled with an explicit consensus fusion module designed to achieve high localization accuracy, maximum recall, and low latency across municipal waste streams.
 
-    subgraph YOLO["3. YOLOv3 (Single-Stage Detector)"]
-        DN53["Darknet-53 Backbone<br/>(53-Layer Residual Convolutional Network)"]
-        MSF["Multi-Scale Feature Extractor<br/>(FPN-like Skip Concat)"]
-        S1["Scale 1: 52x52 Grid<br/>(Small Litter Detection)"]
-        S2["Scale 2: 26x26 Grid<br/>(Medium Litter Detection)"]
-        S3["Scale 3: 13x13 Grid<br/>(Large Litter Detection)"]
-        
-        DN53 --> MSF
-        MSF --> S1
-        MSF --> S2
-        MSF --> S3
-    end
+| Architectural Component | Backbone / Network | Primary Function & Specialization | Key Characteristics |
+| :--- | :--- | :--- | :--- |
+| **Stage 1: Input Ingestion** | Preprocessing Pipeline | Image / Video Stream Ingestion (640×480 RGB) | Aspect-ratio scaling, RGB tensor normalization |
+| **Stage 2A: Faster R-CNN** | ResNet-50 + FPN | Two-Stage Object Localization & Classification | Region Proposal Network (RPN), RoIAlign spatial pooling |
+| **Stage 2B: YOLOv3** | Darknet-53 | Single-Stage Multi-Scale Spatial Regression | 3 prediction heads ($52\times 52, 26\times 26, 13\times 13$), >25 FPS |
+| **Stage 3: Detection Fusion** | Consensus Engine | Class-Aware IoU Association & Calibration | Confidence-weighted box averaging, agreement bonus |
+| **Stage 4: User Dashboard** | Streamlit Web Engine | Interactive Inference & Empirical Analytics | Side-by-side detector comparison, video streaming |
 
-    subgraph FUSION["4. Proposed Detection Fusion Engine"]
-        MATCH["Class-Aware IoU Association<br/>(Threshold &theta; = 0.30 - 0.45)"]
-        WAVG["Confidence-Weighted Coordinate Averaging<br/>B_fused = (S1·B1 + S2·B2) / (S1 + S2)"]
-        BONUS["Consensus Score Calibration<br/>S_fused = min(1.0, max(S1, S2) &times; &gamma;)"]
-        ISO["Single-Detector Retention<br/>(Recall Preservation Safeguard)"]
-        
-        MATCH --> WAVG
-        WAVG --> BONUS
-        MATCH --> ISO
-    end
+---
 
-    subgraph OUTPUT["5. Web Application Dashboard (Streamlit)"]
-        DASH["Streamlit Interactive UI<br/>(http://localhost:8501)"]
-        PANEL1["Side-by-Side Model Comparison<br/>(Faster R-CNN vs. YOLOv3)"]
-        PANEL2["Proposed Fused Output Display<br/>(Color Badges & Box Inventory)"]
-        PANEL3["Video Analytics & Benchmark Metrics<br/>(Frame Stream & Evaluation Charts)"]
-        
-        DASH --> PANEL1
-        DASH --> PANEL2
-        DASH --> PANEL3
-    end
+### Detection Fusion Algorithm
 
-    IMG --> RN50
-    IMG --> DN53
-    FHEAD -->|Detections R1| MATCH
-    S1 & S2 & S3 -->|Detections R2| MATCH
-    BONUS --> DASH
-    ISO --> DASH
+The proposed detection fusion engine systematically merges candidate predictions from Faster R-CNN ($D_{\text{rcnn}}$) and YOLOv3 ($D_{\text{yolo}}$):
 
-    style INPUT fill:#161b22,stroke:#30363d,stroke-width:2px,color:#c9d1d9
-    style FRCNN fill:#0d1117,stroke:#1f6feb,stroke-width:2px,color:#c9d1d9
-    style YOLO fill:#0d1117,stroke:#d29922,stroke-width:2px,color:#c9d1d9
-    style FUSION fill:#0d1117,stroke:#2ea043,stroke-width:2px,color:#c9d1d9
-    style OUTPUT fill:#161b22,stroke:#8957e5,stroke-width:2px,color:#c9d1d9
-```
-
-### Architectural Breakdown
-
-```
-Input Image / Video Frame
-          │
-          ├───► Faster R-CNN ──► ResNet-50 ──► FPN ──► RPN ──► RoIAlign ──► Head ──┐
-          │                                                                         ├──► Detection Fusion ──► Web UI
-          └───► YOLOv3       ──► Darknet-53 ──► Multi-Scale Heads (52, 26, 13) ────┘
-```
-
-1. **Faster R-CNN (Two-Stage Detector)**:
-   - **Backbone**: ResNet-50 with Feature Pyramid Network (FPN) extracting multi-scale feature representations across pyramids P2 through P6.
-   - **Stage 1 (Region Proposal Network)**: Slides a small network over convolutional feature maps to generate candidate object bounding boxes independent of classes.
-   - **Stage 2 (RoIAlign & Prediction Heads)**: Preserves spatial fidelity via RoIAlign and outputs class probabilities across the 6 waste categories along with refined subpixel bounding-box offsets. Excels in dense, occluded, and complex backgrounds.
-
-2. **YOLOv3 (Single-Stage Detector)**:
-   - **Backbone**: Darknet-53 feature extractor incorporating 53 convolutional layers and residual shortcut connections.
-   - **Multi-Scale Heads**: Predicts boxes across 3 distinct feature grids:
-     - **$52\times 52$**: High-resolution map tailored for small litter items (caps, bottle tabs).
-     - **$26\times 26$**: Medium-scale map for standard packaging (cups, cans, snack wrappers).
-     - **$13\times 13$**: Coarse map for large objects (cardboard cartons, large bottles).
-   - **Inference Speed**: Direct single-stage regression delivers fast frame rates (>25 FPS).
-
-3. **Proposed Detection Fusion Engine**:
-   - **Coordinate Normalization**: Normalizes all predictions to a unified $[x_1, y_1, x_2, y_2]$ coordinate space.
-   - **Class-Aware IoU Matching**: Associates pairs of detections $(d_i^{\text{rcnn}}, d_j^{\text{yolo}})$ if and only if they share identical predicted class labels and satisfy $\text{IoU}(d_i, d_j) \ge \theta_{\text{fusion}}$ (default 0.30–0.45).
-   - **Confidence-Weighted Bounding Box Averaging**: Calculates consensus bounding box coordinates weighted by individual model detection confidences:
-     $$\mathbf{B}_{\text{fused}} = \frac{S_{\text{rcnn}} \mathbf{B}_{\text{rcnn}} + S_{\text{yolo}} \mathbf{B}_{\text{yolo}}}{S_{\text{rcnn}} + S_{\text{yolo}}}$$
-   - **Consensus Score Calibration**: When both detectors validate an object candidate, a consensus agreement bonus factor $\gamma \in [1.10, 1.25]$ boosts the confidence score:
-     $$S_{\text{fused}} = \min\left(1.0, \max(S_{\text{rcnn}}, S_{\text{yolo}}) \times \gamma\right)$$
-   - **Recall Safeguard (Isolated Retention)**: Detections above confidence threshold identified by only one model are retained, ensuring high recall on difficult objects.
+1. **Coordinate Standardization**: Normalizes all model bounding boxes to common pixel coordinates $[x_1, y_1, x_2, y_2]$.
+2. **Class-Aware IoU Matching**: Associates detection pairs $(d_i, d_j)$ with identical predicted classes when:
+   $$\text{IoU}(B_i, B_j) = \frac{\text{Area}(B_i \cap B_j)}{\text{Area}(B_i \cup B_j)} \ge \theta_{\text{fusion}} \quad (\theta_{\text{fusion}} \in [0.30, 0.45])$$
+3. **Confidence-Weighted Coordinate Averaging**:
+   $$\mathbf{B}_{\text{fused}} = \frac{S_{\text{rcnn}} \mathbf{B}_{\text{rcnn}} + S_{\text{yolo}} \mathbf{B}_{\text{yolo}}}{S_{\text{rcnn}} + S_{\text{yolo}}}$$
+4. **Consensus Agreement Score Boosting**: When both independent detectors concur on an object candidate, the fused confidence score receives a calibrated consensus bonus:
+   $$S_{\text{fused}} = \min\left(1.0, \max(S_{\text{rcnn}}, S_{\text{yolo}}) \times \gamma\right) \quad (\gamma \approx 1.20)$$
+5. **Recall Preservation**: High-confidence detections isolated to a single detector are retained to eliminate false negatives on small or occluded litter items.
+6. **Non-Maximum Suppression (NMS)**: Suppresses redundant bounding boxes sharing $\text{IoU} > 0.45$.
 
 ---
 
 ## 💻 VS Code Setup Guide
 
-This project is configured for setup and debugging in **Visual Studio Code**.
+This project is fully configured for setup, debugging, and execution in **Visual Studio Code**.
 
-### 1. Open the Project in VS Code
-Launch VS Code and open the repository folder:
+### 1. Open the Repository in VS Code
+Open the project directory in VS Code:
 ```bash
 code D:\AntigravityProjects\garbage-detection
 ```
-Or use the menu: **File** &rarr; **Open Folder...** &rarr; select `garbage-detection`.
+Or launch VS Code and navigate to **File** &rarr; **Open Folder...** &rarr; select `garbage-detection`.
 
 ### 2. Configure Python Interpreter in VS Code
-1. Open the Command Palette: `Ctrl + Shift + P` (or `Cmd + Shift + P` on macOS).
-2. Type: **Python: Select Interpreter**.
-3. Select the project virtual environment:
+1. Open the VS Code Command Palette: `Ctrl + Shift + P` (or `Cmd + Shift + P` on macOS).
+2. Type and select: **Python: Select Interpreter**.
+3. Choose the virtual environment:
    ```
    .\venv\Scripts\python.exe
    ```
-   *(VS Code will automatically detect the `.venv` or `venv` directory).*
+   *(VS Code will automatically associate the workspace with this environment).*
 
-### 3. Open Integrated Terminal in VS Code
-Open a new integrated terminal (`Ctrl + \`` or **Terminal** &rarr; **New Terminal**) and activate the environment:
+### 3. Activate Environment in VS Code Terminal
+Open an integrated terminal in VS Code (`Ctrl + \`` or **Terminal** &rarr; **New Terminal**):
 ```powershell
-# Windows PowerShell in VS Code:
+# PowerShell (Default in VS Code on Windows):
 .\venv\Scripts\Activate.ps1
 
-# Windows Command Prompt:
+# Command Prompt (cmd.exe):
 .\venv\Scripts\activate.bat
 
-# Linux / macOS:
+# macOS / Linux (bash/zsh):
 source venv/bin/activate
 ```
 
@@ -157,7 +84,7 @@ source venv/bin/activate
 - **Detection Fusion Engine**: Class-aware IoU matching, confidence-weighted coordinate averaging, consensus agreement score boosting, and unmatched candidate preservation.
 - **TACO Dataset Integration**: Full support for the real-world Trash Annotations in Context (TACO) dataset mapped to 6 consolidated municipal waste classes (*Bottle, Can, Plastic Wrapper, Carton, Cup, Other Litter*).
 - **Leakage-Free Partitioning**: Deterministic 70/15/15 train/val/test splits using fixed seed `RANDOM_SEED = 42`.
-- **Dual Input Modes**: Simultaneous execution on static images and offline recorded videos.
+- **Dual Input Modes**: Seamless inference across static benchmark/uploaded images and real-time offline recorded videos.
 - **Streamlit Interactive UI**: Complete web interface with side-by-side detector comparison, metrics dashboard, cumulative video stream analytics, and dataset explorer.
 - **Rigorous Evaluation**: Measured Precision, Recall, F1-Score, mAP@0.5, mAP@0.5:0.95, Latency, and FPS benchmarks.
 
@@ -206,7 +133,7 @@ garbage-detection/
 └── outputs/
     ├── checkpoints/            # Saved model weights (.pth)
     ├── evaluations/            # Evaluation metrics (.json, .md)
-    ├── figures/                # Generated evaluation charts (.png)
+    ├── figures/                # Generated architecture & evaluation charts (.png)
     └── samples/                # Sample detection outputs & demo videos
 ```
 
@@ -227,10 +154,7 @@ cd D:\AntigravityProjects\garbage-detection
 python -m venv venv
 
 # Activate the virtual environment
-# On Windows PowerShell:
 .\venv\Scripts\Activate.ps1
-# On Windows CMD:
-.\venv\Scripts\activate.bat
 ```
 
 ### 3. Install Dependencies

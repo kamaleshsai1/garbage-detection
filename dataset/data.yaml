@@ -1,0 +1,12 @@
+path: D:/AntigravityProjects/garbage-detection/dataset
+train: train.txt
+val: val.txt
+test: test.txt
+nc: 6
+names:
+- Bottle
+- Can
+- Plastic Wrapper
+- Carton
+- Cup
+- Other Litter

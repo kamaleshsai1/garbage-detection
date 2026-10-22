@@ -1,0 +1,26 @@
+{
+  "epochs": [
+    1,
+    2
+  ],
+  "train_loss": [
+    1.8196,
+    0.6988
+  ],
+  "loss_classifier": [
+    1.0502,
+    0.1747
+  ],
+  "loss_box_reg": [
+    0.0976,
+    0.1081
+  ],
+  "loss_objectness": [
+    0.5585,
+    0.2931
+  ],
+  "loss_rpn_box_reg": [
+    0.1133,
+    0.1229
+  ]
+}

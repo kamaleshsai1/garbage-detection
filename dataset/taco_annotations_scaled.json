@@ -1,0 +1,3166 @@
+{
+  "batch_1/000000.jpg": {
+    "file_name": "batch_1/000000.jpg",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Bottle",
+        "original_label": "Clear plastic bottle",
+        "supercategory": "Bottle",
+        "box": [
+          221.73,
+          382.63,
+          269.51,
+          444.47
+        ],
+        "area": 2955.0
+      }
+    ]
+  },
+  "batch_1/000001.jpg": {
+    "file_name": "batch_1/000001.jpg",
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {
+        "class_name": "Bottle",
+        "original_label": "Clear plastic bottle",
+        "supercategory": "Bottle",
+        "box": [
+          258.0,
+          232.35,
+          402.93,
+          296.37
+        ],
+        "area": 9278.5
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Plastic bottle cap",
+        "supercategory": "Bottle cap",
+        "box": [
+          391.68,
+          242.65,
+          402.93,
+          257.33
+        ],
+        "area": 165.0
+      }
+    ]
+  },
+  "batch_1/000003.jpg": {
+    "file_name": "batch_1/000003.jpg",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Cup",
+        "original_label": "Paper cup",
+        "supercategory": "Cup",
+        "box": [
+          222.98,
+          341.4,
+          296.06,
+          415.42
+        ],
+        "area": 5409.7
+      }
+    ]
+  },
+  "batch_1/000005.jpg": {
+    "file_name": "batch_1/000005.jpg",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Bottle",
+        "original_label": "Clear plastic bottle",
+        "supercategory": "Bottle",
+        "box": [
+          257.33,
+          173.98,
+          285.13,
+          247.69
+        ],
+        "area": 2048.8
+      }
+    ]
+  },
+  "batch_1/000006.jpg": {
+    "file_name": "batch_1/000006.jpg",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Bottle",
+        "original_label": "Glass bottle",
+        "supercategory": "Bottle",
+        "box": [
+          161.46,
+          39.67,
+          301.05,
+          452.59
+        ],
+        "area": 57642.7
+      }
+    ]
+  },
+  "batch_1/000007.jpg": {
+    "file_name": "batch_1/000007.jpg",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Can",
+        "original_label": "Food Can",
+        "supercategory": "Can",
+        "box": [
+          227.98,
+          39.36,
+          313.86,
+          229.58
+        ],
+        "area": 16336.4
+      },
+      {
+        "class_name": "Cup",
+        "original_label": "Glass cup",
+        "supercategory": "Cup",
+        "box": [
+          251.09,
+          0.0,
+          320.42,
+          49.98
+        ],
+        "area": 3464.8
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Pop tab",
+        "supercategory": "Pop tab",
+        "box": [
+          243.9,
+          39.04,
+          270.45,
+          56.85
+        ],
+        "area": 472.6
+      }
+    ]
+  },
+  "batch_1/000008.jpg": {
+    "file_name": "batch_1/000008.jpg",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Carton",
+        "original_label": "Meal carton",
+        "supercategory": "Carton",
+        "box": [
+          0.31,
+          142.74,
+          446.58,
+          617.2
+        ],
+        "area": 211736.3
+      },
+      {
+        "class_name": "Carton",
+        "original_label": "Other carton",
+        "supercategory": "Carton",
+        "box": [
+          165.83,
+          91.21,
+          480.0,
+          301.1
+        ],
+        "area": 65943.6
+      }
+    ]
+  },
+  "batch_1/000010.jpg": {
+    "file_name": "batch_1/000010.jpg",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Bottle",
+        "original_label": "Clear plastic bottle",
+        "supercategory": "Bottle",
+        "box": [
+          197.37,
+          308.29,
+          353.52,
+          425.1
+        ],
+        "area": 18240.9
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Plastic bottle cap",
+        "supercategory": "Bottle cap",
+        "box": [
+          197.37,
+          308.91,
+          211.11,
+          324.84
+        ],
+        "area": 218.9
+      }
+    ]
+  },
+  "batch_1/000011.jpg": {
+    "file_name": "batch_1/000011.jpg",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Can",
+        "original_label": "Drink can",
+        "supercategory": "Can",
+        "box": [
+          163.02,
+          364.82,
+          237.97,
+          402.93
+        ],
+        "area": 2856.1
+      }
+    ]
+  },
+  "batch_1/000012.jpg": {
+    "file_name": "batch_1/000012.jpg",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Bottle",
+        "original_label": "Glass bottle",
+        "supercategory": "Bottle",
+        "box": [
+          118.36,
+          352.02,
+          251.09,
+          451.34
+        ],
+        "area": 13183.2
+      },
+      {
+        "class_name": "Plastic Wrapper",
+        "original_label": "Other plastic wrapper",
+        "supercategory": "Plastic bag & wrapper",
+        "box": [
+          282.32,
+          338.27,
+          293.87,
+          346.39
+        ],
+        "area": 93.8
+      }
+    ]
+  },
+  "batch_1/000013.jpg": {
+    "file_name": "batch_1/000013.jpg",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Bottle",
+        "original_label": "Glass bottle",
+        "supercategory": "Bottle",
+        "box": [
+          253.27,
+          350.77,
+          315.42,
+          460.09
+        ],
+        "area": 6794.0
+      }
+    ]
+  },
+  "batch_1/000014.jpg": {
+    "file_name": "batch_1/000014.jpg",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Other Litter",
+        "original_label": "Styrofoam piece",
+        "supercategory": "Styrofoam piece",
+        "box": [
+          334.78,
+          307.04,
+          373.51,
+          352.95
+        ],
+        "area": 1778.1
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Styrofoam piece",
+        "supercategory": "Styrofoam piece",
+        "box": [
+          285.44,
+          408.55,
+          361.33,
+          466.96
+        ],
+        "area": 4432.5
+      },
+      {
+        "class_name": "Can",
+        "original_label": "Drink can",
+        "supercategory": "Can",
+        "box": [
+          209.86,
+          333.9,
+          278.26,
+          384.19
+        ],
+        "area": 3439.3
+      },
+      {
+        "class_name": "Plastic Wrapper",
+        "original_label": "Plastic film",
+        "supercategory": "Plastic bag & wrapper",
+        "box": [
+          125.23,
+          322.65,
+          210.49,
+          407.93
+        ],
+        "area": 7269.9
+      },
+      {
+        "class_name": "Carton",
+        "original_label": "Other carton",
+        "supercategory": "Carton",
+        "box": [
+          261.08,
+          315.47,
+          366.95,
+          380.13
+        ],
+        "area": 6845.0
+      },
+      {
+        "class_name": "Plastic Wrapper",
+        "original_label": "Other plastic",
+        "supercategory": "Other plastic",
+        "box": [
+          242.03,
+          284.24,
+          291.69,
+          315.16
+        ],
+        "area": 1535.5
+      }
+    ]
+  },
+  "batch_1/000015.jpg": {
+    "file_name": "batch_1/000015.jpg",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Plastic Wrapper",
+        "original_label": "Plastic film",
+        "supercategory": "Plastic bag & wrapper",
+        "box": [
+          420.35,
+          426.98,
+          480.0,
+          518.18
+        ],
+        "area": 5440.3
+      },
+      {
+        "class_name": "Plastic Wrapper",
+        "original_label": "Crisp packet",
+        "supercategory": "Plastic bag & wrapper",
+        "box": [
+          258.58,
+          330.46,
+          318.85,
+          388.87
+        ],
+        "area": 3520.5
+      }
+    ]
+  },
+  "batch_1/000016.jpg": {
+    "file_name": "batch_1/000016.jpg",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Bottle",
+        "original_label": "Glass bottle",
+        "supercategory": "Bottle",
+        "box": [
+          185.19,
+          291.73,
+          320.1,
+          366.07
+        ],
+        "area": 10029.2
+      }
+    ]
+  },
+  "batch_1/000017.jpg": {
+    "file_name": "batch_1/000017.jpg",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Bottle",
+        "original_label": "Glass bottle",
+        "supercategory": "Bottle",
+        "box": [
+          222.67,
+          165.54,
+          282.32,
+          282.05
+        ],
+        "area": 6949.4
+      }
+    ]
+  },
+  "batch_1/000019.jpg": {
+    "file_name": "batch_1/000019.jpg",
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {
+        "class_name": "Bottle",
+        "original_label": "Clear plastic bottle",
+        "supercategory": "Bottle",
+        "box": [
+          65.28,
+          287.31,
+          207.09,
+          462.82
+        ],
+        "area": 24888.4
+      },
+      {
+        "class_name": "Bottle",
+        "original_label": "Clear plastic bottle",
+        "supercategory": "Bottle",
+        "box": [
+          378.57,
+          256.71,
+          434.48,
+          395.99
+        ],
+        "area": 7787.4
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Plastic bottle cap",
+        "supercategory": "Bottle cap",
+        "box": [
+          198.03,
+          450.33,
+          207.09,
+          462.51
+        ],
+        "area": 110.3
+      },
+      {
+        "class_name": "Can",
+        "original_label": "Drink can",
+        "supercategory": "Can",
+        "box": [
+          183.97,
+          171.14,
+          290.48,
+          297.62
+        ],
+        "area": 13471.5
+      }
+    ]
+  },
+  "batch_1/000021.jpg": {
+    "file_name": "batch_1/000021.jpg",
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {
+        "class_name": "Bottle",
+        "original_label": "Glass bottle",
+        "supercategory": "Bottle",
+        "box": [
+          266.12,
+          199.25,
+          480.7,
+          290.12
+        ],
+        "area": 19500.9
+      },
+      {
+        "class_name": "Plastic Wrapper",
+        "original_label": "Other plastic wrapper",
+        "supercategory": "Plastic bag & wrapper",
+        "box": [
+          79.96,
+          220.17,
+          291.73,
+          350.4
+        ],
+        "area": 27578.5
+      }
+    ]
+  },
+  "batch_1/000022.jpg": {
+    "file_name": "batch_1/000022.jpg",
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {
+        "class_name": "Bottle",
+        "original_label": "Glass bottle",
+        "supercategory": "Bottle",
+        "box": [
+          202.09,
+          322.6,
+          458.21,
+          440.03
+        ],
+        "area": 30075.1
+      },
+      {
+        "class_name": "Plastic Wrapper",
+        "original_label": "Other plastic wrapper",
+        "supercategory": "Plastic bag & wrapper",
+        "box": [
+          97.76,
+          437.22,
+          227.08,
+          479.38
+        ],
+        "area": 5451.8
+      }
+    ]
+  },
+  "batch_1/000023.jpg": {
+    "file_name": "batch_1/000023.jpg",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Bottle",
+        "original_label": "Clear plastic bottle",
+        "supercategory": "Bottle",
+        "box": [
+          116.17,
+          450.09,
+          207.68,
+          519.12
+        ],
+        "area": 6316.3
+      },
+      {
+        "class_name": "Can",
+        "original_label": "Drink can",
+        "supercategory": "Can",
+        "box": [
+          316.98,
+          305.79,
+          376.32,
+          372.63
+        ],
+        "area": 3966.2
+      },
+      {
+        "class_name": "Can",
+        "original_label": "Drink can",
+        "supercategory": "Can",
+        "box": [
+          282.32,
+          466.33,
+          334.78,
+          518.18
+        ],
+        "area": 2720.3
+      },
+      {
+        "class_name": "Can",
+        "original_label": "Drink can",
+        "supercategory": "Can",
+        "box": [
+          213.3,
+          484.14,
+          282.32,
+          516.31
+        ],
+        "area": 2220.4
+      },
+      {
+        "class_name": "Can",
+        "original_label": "Drink can",
+        "supercategory": "Can",
+        "box": [
+          325.73,
+          247.38,
+          370.7,
+          298.6
+        ],
+        "area": 2303.6
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Pop tab",
+        "supercategory": "Pop tab",
+        "box": [
+          362.89,
+          364.2,
+          368.51,
+          372.63
+        ],
+        "area": 47.4
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Plastic bottle cap",
+        "supercategory": "Bottle cap",
+        "box": [
+          115.86,
+          448.84,
+          125.54,
+          464.15
+        ],
+        "area": 148.2
+      }
+    ]
+  },
+  "batch_1/000024.jpg": {
+    "file_name": "batch_1/000024.jpg",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Can",
+        "original_label": "Drink can",
+        "supercategory": "Can",
+        "box": [
+          68.08,
+          455.09,
+          153.34,
+          540.36
+        ],
+        "area": 7269.9
+      },
+      {
+        "class_name": "Can",
+        "original_label": "Drink can",
+        "supercategory": "Can",
+        "box": [
+          198.0,
+          268.62,
+          268.89,
+          341.08
+        ],
+        "area": 5137.1
+      },
+      {
+        "class_name": "Bottle",
+        "original_label": "Clear plastic bottle",
+        "supercategory": "Bottle",
+        "box": [
+          144.59,
+          347.33,
+          183.94,
+          397.93
+        ],
+        "area": 1991.1
+      }
+    ]
+  },
+  "batch_1/000025.jpg": {
+    "file_name": "batch_1/000025.jpg",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Can",
+        "original_label": "Drink can",
+        "supercategory": "Can",
+        "box": [
+          100.87,
+          329.53,
+          252.96,
+          439.47
+        ],
+        "area": 16721.6
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Pop tab",
+        "supercategory": "Pop tab",
+        "box": [
+          233.91,
+          402.62,
+          241.72,
+          429.48
+        ],
+        "area": 209.7
+      },
+      {
+        "class_name": "Carton",
+        "original_label": "Normal paper",
+        "supercategory": "Paper",
+        "box": [
+          445.34,
+          404.18,
+          479.69,
+          489.45
+        ],
+        "area": 2929.3
+      }
+    ]
+  },
+  "batch_1/000026.jpg": {
+    "file_name": "batch_1/000026.jpg",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Can",
+        "original_label": "Drink can",
+        "supercategory": "Can",
+        "box": [
+          173.64,
+          294.86,
+          326.66,
+          399.8
+        ],
+        "area": 16059.8
+      }
+    ]
+  },
+  "batch_1/000027.jpg": {
+    "file_name": "batch_1/000027.jpg",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Can",
+        "original_label": "Drink can",
+        "supercategory": "Can",
+        "box": [
+          208.61,
+          223.95,
+          350.71,
+          428.54
+        ],
+        "area": 29070.9
+      }
+    ]
+  },
+  "batch_1/000028.jpg": {
+    "file_name": "batch_1/000028.jpg",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Plastic Wrapper",
+        "original_label": "Disposable food container",
+        "supercategory": "Plastic container",
+        "box": [
+          109.62,
+          143.68,
+          393.81,
+          357.01
+        ],
+        "area": 60627.2
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Cigarette",
+        "supercategory": "Cigarette",
+        "box": [
+          141.78,
+          448.84,
+          153.03,
+          480.7
+        ],
+        "area": 358.2
+      }
+    ]
+  },
+  "batch_1/000029.jpg": {
+    "file_name": "batch_1/000029.jpg",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Can",
+        "original_label": "Drink can",
+        "supercategory": "Can",
+        "box": [
+          203.62,
+          272.99,
+          336.34,
+          488.2
+        ],
+        "area": 28563.6
+      }
+    ]
+  },
+  "batch_1/000030.jpg": {
+    "file_name": "batch_1/000030.jpg",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Can",
+        "original_label": "Drink can",
+        "supercategory": "Can",
+        "box": [
+          188.63,
+          328.59,
+          247.03,
+          428.54
+        ],
+        "area": 5837.1
+      }
+    ]
+  },
+  "batch_1/000031.jpg": {
+    "file_name": "batch_1/000031.jpg",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Can",
+        "original_label": "Drink can",
+        "supercategory": "Can",
+        "box": [
+          146.78,
+          324.84,
+          275.76,
+          425.1
+        ],
+        "area": 12931.8
+      }
+    ]
+  },
+  "batch_1/000032.jpg": {
+    "file_name": "batch_1/000032.jpg",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Can",
+        "original_label": "Drink can",
+        "supercategory": "Can",
+        "box": [
+          157.09,
+          252.38,
+          296.06,
+          363.88
+        ],
+        "area": 15496.5
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Pop tab",
+        "supercategory": "Pop tab",
+        "box": [
+          159.27,
+          297.67,
+          183.63,
+          316.72
+        ],
+        "area": 464.1
+      }
+    ]
+  },
+  "batch_1/000035.jpg": {
+    "file_name": "batch_1/000035.jpg",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Bottle",
+        "original_label": "Other plastic bottle",
+        "supercategory": "Bottle",
+        "box": [
+          10.31,
+          71.84,
+          198.31,
+          482.89
+        ],
+        "area": 77278.3
+      },
+      {
+        "class_name": "Bottle",
+        "original_label": "Other plastic bottle",
+        "supercategory": "Bottle",
+        "box": [
+          252.02,
+          32.17,
+          473.75,
+          535.99
+        ],
+        "area": 111711.6
+      },
+      {
+        "class_name": "Cup",
+        "original_label": "Glass cup",
+        "supercategory": "Cup",
+        "box": [
+          276.69,
+          163.05,
+          374.76,
+          297.98
+        ],
+        "area": 13231.8
+      }
+    ]
+  },
+  "batch_1/000037.jpg": {
+    "file_name": "batch_1/000037.jpg",
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {
+        "class_name": "Can",
+        "original_label": "Food Can",
+        "supercategory": "Can",
+        "box": [
+          290.17,
+          173.95,
+          408.55,
+          330.1
+        ],
+        "area": 18484.8
+      },
+      {
+        "class_name": "Can",
+        "original_label": "Food Can",
+        "supercategory": "Can",
+        "box": [
+          154.3,
+          165.83,
+          270.49,
+          332.28
+        ],
+        "area": 19340.8
+      },
+      {
+        "class_name": "Can",
+        "original_label": "Food Can",
+        "supercategory": "Can",
+        "box": [
+          221.45,
+          84.63,
+          313.91,
+          235.16
+        ],
+        "area": 13917.0
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Pop tab",
+        "supercategory": "Pop tab",
+        "box": [
+          205.52,
+          199.56,
+          248.32,
+          227.66
+        ],
+        "area": 1202.7
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Pop tab",
+        "supercategory": "Pop tab",
+        "box": [
+          243.94,
+          91.5,
+          275.49,
+          115.24
+        ],
+        "area": 748.8
+      }
+    ]
+  },
+  "batch_1/000038.jpg": {
+    "file_name": "batch_1/000038.jpg",
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {
+        "class_name": "Can",
+        "original_label": "Food Can",
+        "supercategory": "Can",
+        "box": [
+          74.34,
+          214.24,
+          199.59,
+          362.58
+        ],
+        "area": 18579.9
+      },
+      {
+        "class_name": "Can",
+        "original_label": "Food Can",
+        "supercategory": "Can",
+        "box": [
+          250.5,
+          128.04,
+          379.5,
+          235.47
+        ],
+        "area": 13858.4
+      },
+      {
+        "class_name": "Can",
+        "original_label": "Food Can",
+        "supercategory": "Can",
+        "box": [
+          467.9,
+          198.62,
+          594.4,
+          347.59
+        ],
+        "area": 18844.2
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Pop tab",
+        "supercategory": "Pop tab",
+        "box": [
+          122.44,
+          238.59,
+          171.48,
+          263.58
+        ],
+        "area": 1225.2
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Pop tab",
+        "supercategory": "Pop tab",
+        "box": [
+          354.2,
+          178.01,
+          374.19,
+          203.93
+        ],
+        "area": 518.2
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Pop tab",
+        "supercategory": "Pop tab",
+        "box": [
+          536.93,
+          234.85,
+          580.65,
+          265.45
+        ],
+        "area": 1338.3
+      }
+    ]
+  },
+  "batch_1/000040.jpg": {
+    "file_name": "batch_1/000040.jpg",
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {
+        "class_name": "Can",
+        "original_label": "Food Can",
+        "supercategory": "Can",
+        "box": [
+          89.02,
+          125.54,
+          236.45,
+          320.42
+        ],
+        "area": 28729.8
+      },
+      {
+        "class_name": "Can",
+        "original_label": "Food Can",
+        "supercategory": "Can",
+        "box": [
+          452.9,
+          118.36,
+          613.45,
+          309.49
+        ],
+        "area": 30684.6
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Pop tab",
+        "supercategory": "Pop tab",
+        "box": [
+          157.42,
+          140.85,
+          211.15,
+          170.83
+        ],
+        "area": 1610.7
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Pop tab",
+        "supercategory": "Pop tab",
+        "box": [
+          547.86,
+          149.59,
+          605.33,
+          175.82
+        ],
+        "area": 1507.7
+      }
+    ]
+  },
+  "batch_1/000042.jpg": {
+    "file_name": "batch_1/000042.jpg",
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {
+        "class_name": "Can",
+        "original_label": "Food Can",
+        "supercategory": "Can",
+        "box": [
+          207.4,
+          193.31,
+          282.05,
+          277.63
+        ],
+        "area": 6294.6
+      },
+      {
+        "class_name": "Can",
+        "original_label": "Food Can",
+        "supercategory": "Can",
+        "box": [
+          368.26,
+          206.74,
+          457.59,
+          289.5
+        ],
+        "area": 7392.9
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Pop tab",
+        "supercategory": "Pop tab",
+        "box": [
+          235.2,
+          225.48,
+          260.5,
+          260.77
+        ],
+        "area": 892.8
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Pop tab",
+        "supercategory": "Pop tab",
+        "box": [
+          411.67,
+          211.42,
+          431.98,
+          242.03
+        ],
+        "area": 621.4
+      }
+    ]
+  },
+  "batch_1/000043.jpg": {
+    "file_name": "batch_1/000043.jpg",
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {
+        "class_name": "Can",
+        "original_label": "Food Can",
+        "supercategory": "Can",
+        "box": [
+          188.03,
+          90.57,
+          458.21,
+          421.29
+        ],
+        "area": 89354.7
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Pop tab",
+        "supercategory": "Pop tab",
+        "box": [
+          288.3,
+          105.24,
+          359.2,
+          191.75
+        ],
+        "area": 6133.5
+      }
+    ]
+  },
+  "batch_1/000045.jpg": {
+    "file_name": "batch_1/000045.jpg",
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {
+        "class_name": "Can",
+        "original_label": "Food Can",
+        "supercategory": "Can",
+        "box": [
+          176.16,
+          406.92,
+          339.21,
+          479.69
+        ],
+        "area": 11864.0
+      },
+      {
+        "class_name": "Can",
+        "original_label": "Food Can",
+        "supercategory": "Can",
+        "box": [
+          0.0,
+          141.16,
+          136.5,
+          298.56
+        ],
+        "area": 21484.1
+      },
+      {
+        "class_name": "Can",
+        "original_label": "Food Can",
+        "supercategory": "Can",
+        "box": [
+          123.38,
+          148.34,
+          255.81,
+          300.12
+        ],
+        "area": 20100.5
+      },
+      {
+        "class_name": "Can",
+        "original_label": "Food Can",
+        "supercategory": "Can",
+        "box": [
+          251.13,
+          145.22,
+          357.01,
+          301.68
+        ],
+        "area": 16567.0
+      },
+      {
+        "class_name": "Can",
+        "original_label": "Food Can",
+        "supercategory": "Can",
+        "box": [
+          352.33,
+          102.12,
+          507.25,
+          304.49
+        ],
+        "area": 31351.8
+      },
+      {
+        "class_name": "Can",
+        "original_label": "Food Can",
+        "supercategory": "Can",
+        "box": [
+          494.45,
+          98.37,
+          640.0,
+          307.3
+        ],
+        "area": 30410.1
+      }
+    ]
+  },
+  "batch_1/000047.jpg": {
+    "file_name": "batch_1/000047.jpg",
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {
+        "class_name": "Can",
+        "original_label": "Food Can",
+        "supercategory": "Can",
+        "box": [
+          376.38,
+          14.68,
+          570.97,
+          239.84
+        ],
+        "area": 43815.6
+      },
+      {
+        "class_name": "Can",
+        "original_label": "Food Can",
+        "supercategory": "Can",
+        "box": [
+          96.52,
+          3.44,
+          277.99,
+          259.52
+        ],
+        "area": 46472.4
+      },
+      {
+        "class_name": "Bottle",
+        "original_label": "Other plastic bottle",
+        "supercategory": "Bottle",
+        "box": [
+          59.03,
+          234.53,
+          564.1,
+          418.48
+        ],
+        "area": 92903.2
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Plastic bottle cap",
+        "supercategory": "Bottle cap",
+        "box": [
+          59.03,
+          282.0,
+          123.06,
+          352.58
+        ],
+        "area": 4519.3
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Pop tab",
+        "supercategory": "Pop tab",
+        "box": [
+          177.73,
+          42.78,
+          248.63,
+          76.51
+        ],
+        "area": 2391.4
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Pop tab",
+        "supercategory": "Pop tab",
+        "box": [
+          481.02,
+          53.4,
+          557.85,
+          88.07
+        ],
+        "area": 2663.6
+      }
+    ]
+  },
+  "batch_1/000048.jpg": {
+    "file_name": "batch_1/000048.jpg",
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {
+        "class_name": "Bottle",
+        "original_label": "Other plastic bottle",
+        "supercategory": "Bottle",
+        "box": [
+          476.95,
+          143.66,
+          606.58,
+          466.26
+        ],
+        "area": 41817.1
+      },
+      {
+        "class_name": "Bottle",
+        "original_label": "Clear plastic bottle",
+        "supercategory": "Bottle",
+        "box": [
+          180.85,
+          162.71,
+          281.43,
+          450.33
+        ],
+        "area": 28928.2
+      },
+      {
+        "class_name": "Bottle",
+        "original_label": "Glass bottle",
+        "supercategory": "Bottle",
+        "box": [
+          65.91,
+          0.31,
+          196.15,
+          442.84
+        ],
+        "area": 57638.3
+      },
+      {
+        "class_name": "Carton",
+        "original_label": "Drink carton",
+        "supercategory": "Carton",
+        "box": [
+          377.32,
+          190.81,
+          492.57,
+          466.26
+        ],
+        "area": 31746.8
+      },
+      {
+        "class_name": "Carton",
+        "original_label": "Drink carton",
+        "supercategory": "Carton",
+        "box": [
+          269.56,
+          189.88,
+          379.81,
+          458.45
+        ],
+        "area": 29612.7
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Plastic bottle cap",
+        "supercategory": "Bottle cap",
+        "box": [
+          523.81,
+          143.66,
+          589.71,
+          174.26
+        ],
+        "area": 2017.0
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Plastic bottle cap",
+        "supercategory": "Bottle cap",
+        "box": [
+          413.86,
+          207.05,
+          462.27,
+          242.97
+        ],
+        "area": 1738.7
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Plastic bottle cap",
+        "supercategory": "Bottle cap",
+        "box": [
+          302.66,
+          198.62,
+          348.27,
+          237.35
+        ],
+        "area": 1766.0
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Plastic bottle cap",
+        "supercategory": "Bottle cap",
+        "box": [
+          190.53,
+          162.71,
+          248.32,
+          193.0
+        ],
+        "area": 1750.4
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Metal bottle cap",
+        "supercategory": "Bottle cap",
+        "box": [
+          66.22,
+          0.31,
+          119.0,
+          32.48
+        ],
+        "area": 1698.0
+      }
+    ]
+  },
+  "batch_1/000049.jpg": {
+    "file_name": "batch_1/000049.jpg",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Can",
+        "original_label": "Drink can",
+        "supercategory": "Can",
+        "box": [
+          124.61,
+          156.8,
+          275.45,
+          388.25
+        ],
+        "area": 34911.7
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Pop tab",
+        "supercategory": "Pop tab",
+        "box": [
+          140.85,
+          178.66,
+          190.19,
+          201.46
+        ],
+        "area": 1125.1
+      }
+    ]
+  },
+  "batch_1/000050.jpg": {
+    "file_name": "batch_1/000050.jpg",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Can",
+        "original_label": "Drink can",
+        "supercategory": "Can",
+        "box": [
+          200.49,
+          266.74,
+          460.64,
+          517.87
+        ],
+        "area": 65329.1
+      },
+      {
+        "class_name": "Plastic Wrapper",
+        "original_label": "Single-use carrier bag",
+        "supercategory": "Plastic bag & wrapper",
+        "box": [
+          38.72,
+          229.58,
+          161.15,
+          401.37
+        ],
+        "area": 21030.7
+      }
+    ]
+  },
+  "batch_1/000053.jpg": {
+    "file_name": "batch_1/000053.jpg",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Bottle",
+        "original_label": "Clear plastic bottle",
+        "supercategory": "Bottle",
+        "box": [
+          124.29,
+          128.06,
+          478.44,
+          439.79
+        ],
+        "area": 110394.9
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Plastic bottle cap",
+        "supercategory": "Bottle cap",
+        "box": [
+          417.23,
+          128.06,
+          478.44,
+          193.66
+        ],
+        "area": 4015.0
+      },
+      {
+        "class_name": "Plastic Wrapper",
+        "original_label": "Plastic film",
+        "supercategory": "Plastic bag & wrapper",
+        "box": [
+          0.0,
+          0.31,
+          105.56,
+          207.71
+        ],
+        "area": 21892.2
+      },
+      {
+        "class_name": "Plastic Wrapper",
+        "original_label": "Disposable food container",
+        "supercategory": "Plastic container",
+        "box": [
+          0.0,
+          115.26,
+          152.09,
+          214.9
+        ],
+        "area": 15153.9
+      }
+    ]
+  },
+  "batch_1/000054.jpg": {
+    "file_name": "batch_1/000054.jpg",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Can",
+        "original_label": "Aerosol",
+        "supercategory": "Can",
+        "box": [
+          57.46,
+          280.49,
+          211.74,
+          547.23
+        ],
+        "area": 41151.9
+      },
+      {
+        "class_name": "Bottle",
+        "original_label": "Other plastic bottle",
+        "supercategory": "Bottle",
+        "box": [
+          188.94,
+          80.9,
+          307.3,
+          454.47
+        ],
+        "area": 44215.6
+      },
+      {
+        "class_name": "Bottle",
+        "original_label": "Other plastic bottle",
+        "supercategory": "Bottle",
+        "box": [
+          328.22,
+          63.09,
+          480.0,
+          399.8
+        ],
+        "area": 51104.6
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Plastic bottle cap",
+        "supercategory": "Bottle cap",
+        "box": [
+          394.43,
+          63.09,
+          479.69,
+          157.42
+        ],
+        "area": 8042.2
+      }
+    ]
+  },
+  "batch_1/000055.jpg": {
+    "file_name": "batch_1/000055.jpg",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Can",
+        "original_label": "Aerosol",
+        "supercategory": "Can",
+        "box": [
+          160.83,
+          137.12,
+          272.32,
+          488.51
+        ],
+        "area": 39176.5
+      }
+    ]
+  },
+  "batch_1/000056.jpg": {
+    "file_name": "batch_1/000056.jpg",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Bottle",
+        "original_label": "Other plastic bottle",
+        "supercategory": "Bottle",
+        "box": [
+          130.85,
+          2.5,
+          353.52,
+          581.59
+        ],
+        "area": 128945.0
+      }
+    ]
+  },
+  "batch_1/000058.jpg": {
+    "file_name": "batch_1/000058.jpg",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Bottle",
+        "original_label": "Other plastic bottle",
+        "supercategory": "Bottle",
+        "box": [
+          46.84,
+          102.45,
+          224.23,
+          509.75
+        ],
+        "area": 72248.9
+      },
+      {
+        "class_name": "Bottle",
+        "original_label": "Other plastic bottle",
+        "supercategory": "Bottle",
+        "box": [
+          250.46,
+          126.5,
+          421.29,
+          565.04
+        ],
+        "area": 74913.5
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Plastic bottle cap",
+        "supercategory": "Bottle cap",
+        "box": [
+          303.24,
+          126.5,
+          395.68,
+          186.16
+        ],
+        "area": 5514.8
+      }
+    ]
+  },
+  "batch_1/000059.jpg": {
+    "file_name": "batch_1/000059.jpg",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Can",
+        "original_label": "Aerosol",
+        "supercategory": "Can",
+        "box": [
+          204.87,
+          220.2,
+          304.49,
+          482.89
+        ],
+        "area": 26169.3
+      },
+      {
+        "class_name": "Carton",
+        "original_label": "Normal paper",
+        "supercategory": "Paper",
+        "box": [
+          232.35,
+          172.1,
+          479.69,
+          414.8
+        ],
+        "area": 60027.7
+      },
+      {
+        "class_name": "Carton",
+        "original_label": "Tissues",
+        "supercategory": "Paper",
+        "box": [
+          304.49,
+          69.03,
+          479.69,
+          170.85
+        ],
+        "area": 17839.6
+      },
+      {
+        "class_name": "Carton",
+        "original_label": "Toilet tube",
+        "supercategory": "Carton",
+        "box": [
+          322.29,
+          87.77,
+          331.03,
+          133.37
+        ],
+        "area": 398.8
+      }
+    ]
+  },
+  "batch_1/000060.jpg": {
+    "file_name": "batch_1/000060.jpg",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Can",
+        "original_label": "Aerosol",
+        "supercategory": "Can",
+        "box": [
+          234.22,
+          76.21,
+          359.77,
+          534.43
+        ],
+        "area": 57525.7
+      },
+      {
+        "class_name": "Carton",
+        "original_label": "Normal paper",
+        "supercategory": "Paper",
+        "box": [
+          376.32,
+          308.91,
+          480.0,
+          496.94
+        ],
+        "area": 19495.8
+      }
+    ]
+  },
+  "batch_1/000061.jpg": {
+    "file_name": "batch_1/000061.jpg",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Can",
+        "original_label": "Aerosol",
+        "supercategory": "Can",
+        "box": [
+          85.57,
+          225.83,
+          292.62,
+          490.07
+        ],
+        "area": 54712.8
+      }
+    ]
+  },
+  "batch_1/000062.JPG": {
+    "file_name": "batch_1/000062.JPG",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Can",
+        "original_label": "Drink can",
+        "supercategory": "Can",
+        "box": [
+          170.59,
+          131.96,
+          292.16,
+          207.65
+        ],
+        "area": 9201.1
+      },
+      {
+        "class_name": "Can",
+        "original_label": "Drink can",
+        "supercategory": "Can",
+        "box": [
+          283.73,
+          162.55,
+          401.96,
+          292.16
+        ],
+        "area": 15324.2
+      },
+      {
+        "class_name": "Bottle",
+        "original_label": "Clear plastic bottle",
+        "supercategory": "Bottle",
+        "box": [
+          128.82,
+          203.14,
+          292.55,
+          273.92
+        ],
+        "area": 11589.2
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Pop tab",
+        "supercategory": "Pop tab",
+        "box": [
+          288.63,
+          271.37,
+          310.0,
+          280.0
+        ],
+        "area": 184.4
+      },
+      {
+        "class_name": "Plastic Wrapper",
+        "original_label": "Other plastic wrapper",
+        "supercategory": "Plastic bag & wrapper",
+        "box": [
+          0.0,
+          418.63,
+          86.27,
+          564.71
+        ],
+        "area": 12602.8
+      },
+      {
+        "class_name": "Plastic Wrapper",
+        "original_label": "Other plastic wrapper",
+        "supercategory": "Plastic bag & wrapper",
+        "box": [
+          384.9,
+          79.41,
+          400.78,
+          88.63
+        ],
+        "area": 146.4
+      },
+      {
+        "class_name": "Plastic Wrapper",
+        "original_label": "Plastic film",
+        "supercategory": "Plastic bag & wrapper",
+        "box": [
+          102.75,
+          291.57,
+          274.9,
+          571.37
+        ],
+        "area": 48170.2
+      },
+      {
+        "class_name": "Plastic Wrapper",
+        "original_label": "Plastic film",
+        "supercategory": "Plastic bag & wrapper",
+        "box": [
+          122.55,
+          437.84,
+          201.57,
+          528.24
+        ],
+        "area": 7142.8
+      },
+      {
+        "class_name": "Plastic Wrapper",
+        "original_label": "Plastic film",
+        "supercategory": "Plastic bag & wrapper",
+        "box": [
+          373.33,
+          9.61,
+          408.63,
+          38.63
+        ],
+        "area": 1024.2
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Aluminium foil",
+        "supercategory": "Aluminium foil",
+        "box": [
+          395.29,
+          349.61,
+          418.24,
+          366.67
+        ],
+        "area": 391.3
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Aluminium foil",
+        "supercategory": "Aluminium foil",
+        "box": [
+          208.82,
+          525.69,
+          220.2,
+          548.63
+        ],
+        "area": 260.9
+      },
+      {
+        "class_name": "Carton",
+        "original_label": "Normal paper",
+        "supercategory": "Paper",
+        "box": [
+          218.24,
+          80.59,
+          238.82,
+          115.88
+        ],
+        "area": 726.6
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Plastic bottle cap",
+        "supercategory": "Bottle cap",
+        "box": [
+          128.82,
+          238.63,
+          144.51,
+          270.0
+        ],
+        "area": 492.1
+      }
+    ]
+  },
+  "batch_1/000064.JPG": {
+    "file_name": "batch_1/000064.JPG",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Cup",
+        "original_label": "Foam cup",
+        "supercategory": "Cup",
+        "box": [
+          179.02,
+          211.18,
+          297.84,
+          327.06
+        ],
+        "area": 13769.6
+      }
+    ]
+  },
+  "batch_1/000065.JPG": {
+    "file_name": "batch_1/000065.JPG",
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {
+        "class_name": "Other Litter",
+        "original_label": "Plastic lid",
+        "supercategory": "Lid",
+        "box": [
+          10.39,
+          94.12,
+          214.51,
+          299.41
+        ],
+        "area": 41904.2
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Metal lid",
+        "supercategory": "Lid",
+        "box": [
+          277.25,
+          251.96,
+          394.71,
+          368.43
+        ],
+        "area": 13679.6
+      },
+      {
+        "class_name": "Carton",
+        "original_label": "Egg carton",
+        "supercategory": "Carton",
+        "box": [
+          357.65,
+          93.14,
+          559.22,
+          237.25
+        ],
+        "area": 29049.6
+      },
+      {
+        "class_name": "Carton",
+        "original_label": "Egg carton",
+        "supercategory": "Carton",
+        "box": [
+          231.96,
+          10.78,
+          429.22,
+          217.45
+        ],
+        "area": 40766.0
+      }
+    ]
+  },
+  "batch_1/000066.JPG": {
+    "file_name": "batch_1/000066.JPG",
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {
+        "class_name": "Carton",
+        "original_label": "Egg carton",
+        "supercategory": "Carton",
+        "box": [
+          80.98,
+          219.61,
+          305.1,
+          400.39
+        ],
+        "area": 40517.0
+      }
+    ]
+  },
+  "batch_1/000067.JPG": {
+    "file_name": "batch_1/000067.JPG",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Carton",
+        "original_label": "Egg carton",
+        "supercategory": "Carton",
+        "box": [
+          6.08,
+          38.04,
+          339.41,
+          451.18
+        ],
+        "area": 137712.4
+      }
+    ]
+  },
+  "batch_1/000068.JPG": {
+    "file_name": "batch_1/000068.JPG",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Other Litter",
+        "original_label": "Plastic straw",
+        "supercategory": "Straw",
+        "box": [
+          176.08,
+          348.43,
+          327.06,
+          387.06
+        ],
+        "area": 5832.0
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Cigarette",
+        "supercategory": "Cigarette",
+        "box": [
+          33.33,
+          295.69,
+          50.2,
+          325.88
+        ],
+        "area": 509.2
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Cigarette",
+        "supercategory": "Cigarette",
+        "box": [
+          25.49,
+          264.31,
+          40.78,
+          283.53
+        ],
+        "area": 293.9
+      }
+    ]
+  },
+  "batch_1/000069.JPG": {
+    "file_name": "batch_1/000069.JPG",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Can",
+        "original_label": "Drink can",
+        "supercategory": "Can",
+        "box": [
+          205.88,
+          324.31,
+          286.27,
+          393.53
+        ],
+        "area": 5564.4
+      }
+    ]
+  },
+  "batch_1/000070.JPG": {
+    "file_name": "batch_1/000070.JPG",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Can",
+        "original_label": "Drink can",
+        "supercategory": "Can",
+        "box": [
+          203.53,
+          217.84,
+          253.53,
+          342.75
+        ],
+        "area": 6245.1
+      }
+    ]
+  },
+  "batch_1/000071.JPG": {
+    "file_name": "batch_1/000071.JPG",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Carton",
+        "original_label": "Other carton",
+        "supercategory": "Carton",
+        "box": [
+          200.78,
+          273.92,
+          309.8,
+          390.0
+        ],
+        "area": 12654.8
+      }
+    ]
+  },
+  "batch_1/000072.JPG": {
+    "file_name": "batch_1/000072.JPG",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Plastic Wrapper",
+        "original_label": "Crisp packet",
+        "supercategory": "Plastic bag & wrapper",
+        "box": [
+          138.04,
+          255.1,
+          271.96,
+          370.98
+        ],
+        "area": 15519.1
+      },
+      {
+        "class_name": "Carton",
+        "original_label": "Normal paper",
+        "supercategory": "Paper",
+        "box": [
+          0.2,
+          277.06,
+          159.8,
+          479.02
+        ],
+        "area": 32234.5
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Cigarette",
+        "supercategory": "Cigarette",
+        "box": [
+          189.8,
+          488.63,
+          216.86,
+          513.33
+        ],
+        "area": 668.5
+      }
+    ]
+  },
+  "batch_1/000073.JPG": {
+    "file_name": "batch_1/000073.JPG",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Can",
+        "original_label": "Drink can",
+        "supercategory": "Can",
+        "box": [
+          184.31,
+          164.12,
+          280.78,
+          303.53
+        ],
+        "area": 13449.1
+      }
+    ]
+  },
+  "batch_1/000074.JPG": {
+    "file_name": "batch_1/000074.JPG",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Cup",
+        "original_label": "Paper cup",
+        "supercategory": "Cup",
+        "box": [
+          236.27,
+          373.53,
+          277.65,
+          426.67
+        ],
+        "area": 2198.4
+      }
+    ]
+  },
+  "batch_1/000076.JPG": {
+    "file_name": "batch_1/000076.JPG",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Other Litter",
+        "original_label": "Plastic straw",
+        "supercategory": "Straw",
+        "box": [
+          118.24,
+          374.12,
+          193.14,
+          444.51
+        ],
+        "area": 5272.5
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Cigarette",
+        "supercategory": "Cigarette",
+        "box": [
+          107.45,
+          360.0,
+          117.65,
+          370.2
+        ],
+        "area": 104.0
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Cigarette",
+        "supercategory": "Cigarette",
+        "box": [
+          72.16,
+          325.1,
+          83.14,
+          336.47
+        ],
+        "area": 124.9
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Cigarette",
+        "supercategory": "Cigarette",
+        "box": [
+          59.22,
+          320.39,
+          74.12,
+          336.08
+        ],
+        "area": 233.8
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Cigarette",
+        "supercategory": "Cigarette",
+        "box": [
+          10.59,
+          262.75,
+          22.35,
+          274.9
+        ],
+        "area": 143.0
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Cigarette",
+        "supercategory": "Cigarette",
+        "box": [
+          231.37,
+          171.76,
+          245.88,
+          185.49
+        ],
+        "area": 199.2
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Cigarette",
+        "supercategory": "Cigarette",
+        "box": [
+          201.18,
+          196.86,
+          214.9,
+          210.59
+        ],
+        "area": 188.4
+      }
+    ]
+  },
+  "batch_1/000078.JPG": {
+    "file_name": "batch_1/000078.JPG",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Other Litter",
+        "original_label": "Paper bag",
+        "supercategory": "Paper bag",
+        "box": [
+          82.55,
+          197.84,
+          349.61,
+          579.41
+        ],
+        "area": 101901.3
+      }
+    ]
+  },
+  "batch_1/000079.JPG": {
+    "file_name": "batch_1/000079.JPG",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Other Litter",
+        "original_label": "Paper bag",
+        "supercategory": "Paper bag",
+        "box": [
+          50.39,
+          213.53,
+          386.08,
+          562.75
+        ],
+        "area": 117226.9
+      }
+    ]
+  },
+  "batch_1/000081.JPG": {
+    "file_name": "batch_1/000081.JPG",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Bottle",
+        "original_label": "Clear plastic bottle",
+        "supercategory": "Bottle",
+        "box": [
+          146.86,
+          386.67,
+          233.92,
+          442.35
+        ],
+        "area": 4848.0
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Plastic bottle cap",
+        "supercategory": "Bottle cap",
+        "box": [
+          222.55,
+          386.67,
+          233.73,
+          404.51
+        ],
+        "area": 199.4
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Cigarette",
+        "supercategory": "Cigarette",
+        "box": [
+          272.16,
+          511.76,
+          284.71,
+          530.59
+        ],
+        "area": 236.2
+      }
+    ]
+  },
+  "batch_1/000082.JPG": {
+    "file_name": "batch_1/000082.JPG",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Plastic Wrapper",
+        "original_label": "Crisp packet",
+        "supercategory": "Plastic bag & wrapper",
+        "box": [
+          189.41,
+          274.31,
+          292.35,
+          369.41
+        ],
+        "area": 9789.5
+      }
+    ]
+  },
+  "batch_1/000083.JPG": {
+    "file_name": "batch_1/000083.JPG",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Cup",
+        "original_label": "Paper cup",
+        "supercategory": "Cup",
+        "box": [
+          184.71,
+          186.27,
+          281.57,
+          285.1
+        ],
+        "area": 9572.3
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Plastic lid",
+        "supercategory": "Lid",
+        "box": [
+          272.55,
+          179.41,
+          327.06,
+          290.0
+        ],
+        "area": 6028.1
+      }
+    ]
+  },
+  "batch_1/000084.JPG": {
+    "file_name": "batch_1/000084.JPG",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Cup",
+        "original_label": "Disposable plastic cup",
+        "supercategory": "Cup",
+        "box": [
+          137.45,
+          429.61,
+          256.08,
+          539.22
+        ],
+        "area": 13002.5
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Plastic lid",
+        "supercategory": "Lid",
+        "box": [
+          209.8,
+          427.45,
+          269.8,
+          510.98
+        ],
+        "area": 5011.8
+      },
+      {
+        "class_name": "Can",
+        "original_label": "Drink can",
+        "supercategory": "Can",
+        "box": [
+          213.73,
+          80.59,
+          247.06,
+          109.61
+        ],
+        "area": 967.3
+      },
+      {
+        "class_name": "Can",
+        "original_label": "Drink can",
+        "supercategory": "Can",
+        "box": [
+          373.53,
+          55.69,
+          402.16,
+          85.29
+        ],
+        "area": 847.6
+      }
+    ]
+  },
+  "batch_1/000085.JPG": {
+    "file_name": "batch_1/000085.JPG",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Other Litter",
+        "original_label": "Plastic straw",
+        "supercategory": "Straw",
+        "box": [
+          170.78,
+          246.67,
+          335.69,
+          308.04
+        ],
+        "area": 10120.5
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Broken glass",
+        "supercategory": "Broken glass",
+        "box": [
+          306.27,
+          227.25,
+          319.8,
+          246.08
+        ],
+        "area": 254.7
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Broken glass",
+        "supercategory": "Broken glass",
+        "box": [
+          461.76,
+          279.41,
+          476.27,
+          288.04
+        ],
+        "area": 125.2
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Cigarette",
+        "supercategory": "Cigarette",
+        "box": [
+          262.35,
+          242.35,
+          276.86,
+          251.37
+        ],
+        "area": 130.9
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Cigarette",
+        "supercategory": "Cigarette",
+        "box": [
+          301.18,
+          224.71,
+          324.31,
+          230.98
+        ],
+        "area": 145.2
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Cigarette",
+        "supercategory": "Cigarette",
+        "box": [
+          311.76,
+          238.04,
+          336.08,
+          254.9
+        ],
+        "area": 410.0
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Cigarette",
+        "supercategory": "Cigarette",
+        "box": [
+          328.63,
+          279.22,
+          335.29,
+          299.22
+        ],
+        "area": 133.3
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Cigarette",
+        "supercategory": "Cigarette",
+        "box": [
+          335.29,
+          288.63,
+          355.69,
+          296.47
+        ],
+        "area": 159.9
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Cigarette",
+        "supercategory": "Cigarette",
+        "box": [
+          363.53,
+          250.59,
+          369.02,
+          266.67
+        ],
+        "area": 88.3
+      }
+    ]
+  },
+  "batch_1/000086.JPG": {
+    "file_name": "batch_1/000086.JPG",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Other Litter",
+        "original_label": "Plastic utensils",
+        "supercategory": "Plastic utensils",
+        "box": [
+          244.31,
+          206.27,
+          324.12,
+          316.67
+        ],
+        "area": 8809.7
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Cigarette",
+        "supercategory": "Cigarette",
+        "box": [
+          145.1,
+          105.88,
+          169.02,
+          118.04
+        ],
+        "area": 290.8
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Cigarette",
+        "supercategory": "Cigarette",
+        "box": [
+          273.73,
+          319.61,
+          298.04,
+          336.47
+        ],
+        "area": 410.0
+      }
+    ]
+  },
+  "batch_1/000087.JPG": {
+    "file_name": "batch_1/000087.JPG",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Other Litter",
+        "original_label": "Paper bag",
+        "supercategory": "Paper bag",
+        "box": [
+          199.61,
+          220.59,
+          269.8,
+          298.43
+        ],
+        "area": 5464.3
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Cigarette",
+        "supercategory": "Cigarette",
+        "box": [
+          29.02,
+          160.0,
+          40.78,
+          174.12
+        ],
+        "area": 166.1
+      }
+    ]
+  },
+  "batch_1/000088.JPG": {
+    "file_name": "batch_1/000088.JPG",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Can",
+        "original_label": "Food Can",
+        "supercategory": "Can",
+        "box": [
+          60.98,
+          323.14,
+          230.59,
+          490.39
+        ],
+        "area": 28367.7
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Glass jar",
+        "supercategory": "Glass jar",
+        "box": [
+          320.2,
+          206.86,
+          462.16,
+          441.37
+        ],
+        "area": 33291.2
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Metal lid",
+        "supercategory": "Lid",
+        "box": [
+          359.41,
+          206.86,
+          461.18,
+          278.43
+        ],
+        "area": 7283.2
+      },
+      {
+        "class_name": "Carton",
+        "original_label": "Tissues",
+        "supercategory": "Paper",
+        "box": [
+          162.55,
+          0.39,
+          397.06,
+          248.82
+        ],
+        "area": 58259.6
+      }
+    ]
+  },
+  "batch_1/000090.JPG": {
+    "file_name": "batch_1/000090.JPG",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Can",
+        "original_label": "Food Can",
+        "supercategory": "Can",
+        "box": [
+          119.22,
+          86.08,
+          301.76,
+          319.8
+        ],
+        "area": 42666.4
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Food waste",
+        "supercategory": "Food waste",
+        "box": [
+          219.22,
+          197.65,
+          294.9,
+          272.16
+        ],
+        "area": 5639.4
+      }
+    ]
+  },
+  "batch_1/000091.JPG": {
+    "file_name": "batch_1/000091.JPG",
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {
+        "class_name": "Other Litter",
+        "original_label": "Squeezable tube",
+        "supercategory": "Squeezable tube",
+        "box": [
+          0.0,
+          81.18,
+          429.41,
+          395.1
+        ],
+        "area": 134801.6
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Metal bottle cap",
+        "supercategory": "Bottle cap",
+        "box": [
+          508.43,
+          179.22,
+          622.55,
+          265.69
+        ],
+        "area": 9867.8
+      }
+    ]
+  },
+  "batch_1/000092.JPG": {
+    "file_name": "batch_1/000092.JPG",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Carton",
+        "original_label": "Other carton",
+        "supercategory": "Carton",
+        "box": [
+          54.31,
+          134.51,
+          276.47,
+          369.41
+        ],
+        "area": 52185.1
+      },
+      {
+        "class_name": "Plastic Wrapper",
+        "original_label": "Spread tub",
+        "supercategory": "Plastic container",
+        "box": [
+          300.59,
+          181.57,
+          421.76,
+          310.2
+        ],
+        "area": 15586.6
+      },
+      {
+        "class_name": "Plastic Wrapper",
+        "original_label": "Other plastic wrapper",
+        "supercategory": "Plastic bag & wrapper",
+        "box": [
+          300.98,
+          181.57,
+          421.37,
+          284.51
+        ],
+        "area": 12393.3
+      }
+    ]
+  },
+  "batch_1/000093.JPG": {
+    "file_name": "batch_1/000093.JPG",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Plastic Wrapper",
+        "original_label": "Spread tub",
+        "supercategory": "Plastic container",
+        "box": [
+          250.59,
+          360.98,
+          368.63,
+          489.22
+        ],
+        "area": 15136.8
+      }
+    ]
+  },
+  "batch_1/000094.JPG": {
+    "file_name": "batch_1/000094.JPG",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Plastic Wrapper",
+        "original_label": "Plastic film",
+        "supercategory": "Plastic bag & wrapper",
+        "box": [
+          60.98,
+          142.94,
+          356.47,
+          483.92
+        ],
+        "area": 100756.4
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Food waste",
+        "supercategory": "Food waste",
+        "box": [
+          130.39,
+          183.53,
+          337.65,
+          384.12
+        ],
+        "area": 41572.9
+      }
+    ]
+  },
+  "batch_1/000095.JPG": {
+    "file_name": "batch_1/000095.JPG",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Plastic Wrapper",
+        "original_label": "Single-use carrier bag",
+        "supercategory": "Plastic bag & wrapper",
+        "box": [
+          121.57,
+          202.55,
+          464.51,
+          626.27
+        ],
+        "area": 145312.9
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Shoe",
+        "supercategory": "Shoe",
+        "box": [
+          188.04,
+          114.31,
+          259.8,
+          216.47
+        ],
+        "area": 7331.3
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Shoe",
+        "supercategory": "Shoe",
+        "box": [
+          94.12,
+          106.08,
+          188.82,
+          249.61
+        ],
+        "area": 13593.1
+      }
+    ]
+  },
+  "batch_1/000096.JPG": {
+    "file_name": "batch_1/000096.JPG",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Plastic Wrapper",
+        "original_label": "Garbage bag",
+        "supercategory": "Plastic bag & wrapper",
+        "box": [
+          117.06,
+          197.65,
+          355.88,
+          418.43
+        ],
+        "area": 52728.5
+      }
+    ]
+  },
+  "batch_1/000098.JPG": {
+    "file_name": "batch_1/000098.JPG",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Bottle",
+        "original_label": "Clear plastic bottle",
+        "supercategory": "Bottle",
+        "box": [
+          111.96,
+          193.14,
+          199.61,
+          352.75
+        ],
+        "area": 13989.2
+      },
+      {
+        "class_name": "Plastic Wrapper",
+        "original_label": "Other plastic wrapper",
+        "supercategory": "Plastic bag & wrapper",
+        "box": [
+          343.33,
+          459.22,
+          377.45,
+          476.86
+        ],
+        "area": 602.1
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Metal bottle cap",
+        "supercategory": "Bottle cap",
+        "box": [
+          391.76,
+          339.22,
+          408.43,
+          352.35
+        ],
+        "area": 219.0
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Plastic bottle cap",
+        "supercategory": "Bottle cap",
+        "box": [
+          156.27,
+          193.14,
+          175.1,
+          203.53
+        ],
+        "area": 195.6
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Pop tab",
+        "supercategory": "Pop tab",
+        "box": [
+          375.1,
+          495.29,
+          399.61,
+          513.92
+        ],
+        "area": 456.6
+      }
+    ]
+  },
+  "batch_1/000099.JPG": {
+    "file_name": "batch_1/000099.JPG",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Plastic Wrapper",
+        "original_label": "Six pack rings",
+        "supercategory": "Plastic bag & wrapper",
+        "box": [
+          128.82,
+          2.94,
+          237.25,
+          117.25
+        ],
+        "area": 12395.2
+      },
+      {
+        "class_name": "Other Litter",
+        "original_label": "Plastic lid",
+        "supercategory": "Lid",
+        "box": [
+          166.67,
+          347.45,
+          249.8,
+          429.41
+        ],
+        "area": 6814.0
+      }
+    ]
+  },
+  "batch_1/000100.JPG": {
+    "file_name": "batch_1/000100.JPG",
+    "width": 480,
+    "height": 640,
+    "objects": [
+      {
+        "class_name": "Cup",
+        "original_label": "Foam cup",
+        "supercategory": "Cup",
+        "box": [
+          182.35,
+          120.59,
+          320.78,
+          259.61
+        ],
+        "area": 19244.7
+      }
+    ]
+  }
+}

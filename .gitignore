@@ -1,0 +1,32 @@
+﻿# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Model Weights (exceeds GitHub 100MB limit)
+*.pth
+*.pt
+*.weights
+*.bin
+outputs/checkpoints/
+
+# Temporary and Output Video/Data
+outputs/temp_*.mp4
+outputs/*.mp4
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
